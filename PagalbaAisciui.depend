@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1587123394 source:c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.cpp
+	<iostream>
+
+1587128338 source:c:\users\darba\desktop\other projects\pagalbaaisciui\main.cpp
+	"_0_pamoka.hpp"
+	"_1_pamoka.hpp"
+	"_2_pamoka.hpp"
+
+1587123394 c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.cpp
+	<iostream>
+
+1587123823 source:c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.hpp
+	<iostream>
+
+1587124750 c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.hpp
+	<iostream>
+	<string>
+	<fstream>
+
+1587124112 c:\users\darba\desktop\other projects\pagalbaaisciui\_2_pamoka.hpp
+	<iostream>
+
+1587140087 c:\users\darba\desktop\other projects\pagalbaaisciui\_0_pamoka.hpp
+	<fstream>
+	<iostream>
+	<iomanip>
+

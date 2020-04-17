@@ -1,0 +1,8 @@
+4 3
+Jurgis 2 15
+Antanas 2 35
+Aloyzas 2 75
+Martynas 3 05
+15 12 17 22
+0 10 15 11
+7 15 0 0
