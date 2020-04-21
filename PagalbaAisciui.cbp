@@ -5,6 +5,7 @@
 		<Option title="PagalbaAisciui" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="data/" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/PagalbaAisciui" prefix_auto="1" extension_auto="1" />
@@ -32,6 +33,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="_0_pamoka.hpp" />
+		<Unit filename="_1_pamoka.hpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_2_pamoka.hpp" />
+		<Unit filename="data.txt">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="data/" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
