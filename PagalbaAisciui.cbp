@@ -38,6 +38,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="_2_pamoka.hpp" />
+		<Unit filename="_3_pamoka.hpp" />
 		<Unit filename="data.txt">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="data/" />

@@ -2,6 +2,7 @@
 #include "_1_pamoka.hpp"
 #include "_2_pamoka.hpp"
 #include "_3_pamoka.hpp"
+#include "_4_pamoka.hpp"
 
 // comm / uncomm : Ctrl + Shift + C / Ctrl + Shift + X
 
@@ -10,6 +11,7 @@ int main(){
     // pirmaPamoka();
     // antraPamoka();
     // treciaPamokaRikiavimas();
-    treciaPamokaPaieska();
+    // treciaPamokaPaieska();
+    ketvirtaPamoka();
     return 0;
 }

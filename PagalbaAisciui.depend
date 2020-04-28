@@ -2,11 +2,12 @@
 1587123394 source:c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.cpp
 	<iostream>
 
-1587480738 source:c:\users\darba\desktop\other projects\pagalbaaisciui\main.cpp
+1588082835 source:c:\users\darba\desktop\other projects\pagalbaaisciui\main.cpp
 	"_0_pamoka.hpp"
 	"_1_pamoka.hpp"
 	"_2_pamoka.hpp"
 	"_3_pamoka.hpp"
+	"_4_pamoka.hpp"
 
 1587123394 c:\users\darba\desktop\other projects\pagalbaaisciui\_1_pamoka.cpp
 	<iostream>
@@ -27,5 +28,8 @@
 	<iostream>
 	<iomanip>
 
-1587481226 c:\users\darba\desktop\other projects\pagalbaaisciui\_3_pamoka.hpp
+1587481369 c:\users\darba\desktop\other projects\pagalbaaisciui\_3_pamoka.hpp
+
+1588085567 c:\users\darba\desktop\other projects\pagalbaaisciui\_4_pamoka.hpp
+	<stdlib.h>
 
