@@ -67,22 +67,25 @@ void ketvirtaPamoka(){
     int trizenkliuPradziaRasosMasyve = rasosMasyvoDydis - trizenkliuSkaiciusRasosMasyve;
     int trizenkliuPradziaRimoMasyve = rimoMasyvoDydis - trizenkliuSkaiciusRimoMasyve;
 
+    // ... inicializuojame naujaji trizenkliu masyva
     int naujoRimoMasyvoDydis = trizenkliuSkaiciusRasosMasyve + trizenkliuSkaiciusRimoMasyve;
     int naujasRimoMasyvas[naujoRimoMasyvoDydis];
 
 
+    // ... uzpildome masyva
     kiekRasosPanaudota = 0;
     kiekRimoPanaudota = 0;
     for(int i = 0; i < naujoRimoMasyvoDydis; i++){
         if(trizenkliuPradziaRimoMasyve + kiekRimoPanaudota < rimoMasyvoDydis){
+            // ... testas, ar rimo sekantis skaicius mazesnis ar rasos
             if(rimoMasyvas[trizenkliuPradziaRimoMasyve + kiekRimoPanaudota]
                 < rasosMasyvas[trizenkliuPradziaRasosMasyve + kiekRasosPanaudota])
             {
                 naujasRimoMasyvas[i] = rimoMasyvas[trizenkliuPradziaRimoMasyve + kiekRimoPanaudota];
-                kiekRimoPanaudota++;
+                kiekRimoPanaudota++; // ... jei nustatome, kad rimo skaicius mazesnis, tai ji panaudojame
             } else {
                 naujasRimoMasyvas[i] = rasosMasyvas[trizenkliuPradziaRasosMasyve + kiekRasosPanaudota];
-                kiekRasosPanaudota++;
+                kiekRasosPanaudota++; // ... jei nustatome, kad rasos skaicius mazesnis, tai ji panaudojame
             }
         } else {
             naujasRimoMasyvas[i] = rasosMasyvas[trizenkliuPradziaRasosMasyve + kiekRasosPanaudota];
@@ -90,6 +93,7 @@ void ketvirtaPamoka(){
         }
     }
 
+    // ... isspausdiname pasitikrinimui
     cout << "Rimo kolekcija:" << endl;
     for(int i = 0; i < naujoRimoMasyvoDydis; i++){
         cout << naujasRimoMasyvas[i];
