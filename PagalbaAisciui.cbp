@@ -33,6 +33,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="U2.txt">
+			<Option virtualFolder="data/" />
+		</Unit>
 		<Unit filename="_0_pamoka.hpp" />
 		<Unit filename="_1_pamoka.hpp">
 			<Option compilerVar="CC" />
@@ -40,6 +43,7 @@
 		<Unit filename="_2_pamoka.hpp" />
 		<Unit filename="_3_pamoka.hpp" />
 		<Unit filename="_4_pamoka.hpp" />
+		<Unit filename="_5_pamoka.hpp" />
 		<Unit filename="data.txt">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="data/" />
